@@ -7,7 +7,7 @@
           <a class="nav-link" href="{{ route('comics.index') }}">Lista Prodotti</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nuovo Prodotto</a>
+          <a class="nav-link" href="{{ route('comics.create') }}">Nuovo Prodotto</a>
         </li>
       </ul>
 </header>

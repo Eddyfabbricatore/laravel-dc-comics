@@ -5,7 +5,7 @@
 
     <div class="card" style="width: 18rem;">
         <div class="image">
-            <img src="{{ $product->thumb }}" class="card-img-top" alt="...">
+            <img class="card-img-top" src="{{ $product->thumb }}" alt="{{ $product->title }}">
         </div>
 
         <div class="card-body">
