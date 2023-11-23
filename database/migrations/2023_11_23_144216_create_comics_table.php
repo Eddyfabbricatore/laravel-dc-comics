@@ -17,11 +17,11 @@ return new class extends Migration
             $table->id();
             $table->string('title', 50);
             $table->string('slug', 50);
-            $table->text('description');
+            $table->longText('description');
             $table->longText('thumb');
             $table->string('price', 10);
             $table->string('series', 50);
-            $table->string('sale_date', 10);
+            $table->date('sale_date');
             $table->string('type', 20);
             //$table->string('artists');
             //$table->string('writers');
